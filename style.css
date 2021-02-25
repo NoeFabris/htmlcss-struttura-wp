@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 70%;
+    height: 10vh;
+    background-color: rosybrown;
+    margin: 25px 15% 25px 15%;
+}
