@@ -52,3 +52,9 @@ container::after{
     display: table;
     clear: both;
 }
+footer{
+    width: 70%;
+    height: calc(100vh - 80vh - 125px);
+    background-color: rgb(255, 0, 64);
+    margin: 25px 15% 25px 15%;
+}
