@@ -4,23 +4,21 @@
     box-sizing: border-box;
 
 }
-header{
+body > *{
     width: 70%;
+    margin: 25px 15%;
+}
+header{
     height: 10vh;
     background-color: rosybrown;
-    margin: 25px 15% 25px 15%;
 }
 nav{
-    width: 70%;
     height: 20vh;
     background-color: sandybrown;
-    margin: 25px 15% 25px 15%;
 }
 main{
-    width: 70%;
     height: 50vh;
     background-color: blue;
-    margin: 25px 15% 25px 15%;
 }
 .box1{
     width: 100%;
@@ -47,7 +45,7 @@ main{
     background-color: rgb(0, 217, 255);
     float: left;
 }
-container::after{
+.container::after{
     content: "";
     display: table;
     clear: both;
